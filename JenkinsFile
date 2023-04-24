@@ -11,3 +11,4 @@ steps {
 deploy adapters: [tomcat9(credentialsId: 'b69650bb-1a36-474a-93d8-38a087f23de2', path: '', url: 'http://3.7.55.114:8081/')], contextPath: null, war: '**/*.war'}
 }
 }
+}
